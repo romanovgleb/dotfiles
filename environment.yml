@@ -1,0 +1,27 @@
+name: geo
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - geopandas
+  - dask-geopandas
+  - pandas
+  - osmnx
+  - networkx
+  - openpyxl
+  - jupyterlab
+  - spyder # !don't install on vm
+  - xgboost
+  - scikit-learn
+  - scipy # stats & interpolate
+  - tqdm
+  - h3-py
+  - seaborn
+  - contextily
+  - spopt
+  - libpysal
+  - fastparquet
+  - pyarrow
+  - missingno
+  - selenium
