@@ -6,8 +6,8 @@ channels:
 dependencies:
   - geopandas
   - dask-geopandas
+  - graphviz # dask visualization
   - pandas
-  - dask
   - osmnx
   - networkx
   - openpyxl
@@ -26,3 +26,12 @@ dependencies:
   - pyarrow
   - missingno
   - selenium
+  - ipycytoscape
+  - python-graphviz
+  - zarr
+  - xarray
+  - pooch
+  - s3fs
+  - dask distributed
+  - dask-labextension
+
